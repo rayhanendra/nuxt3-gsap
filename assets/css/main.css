@@ -1,6 +1,19 @@
 * {
-    background: black;
+    /* background: #23231C; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    background: linear-gradient(#0f0f0c, #23231c);
+}
+
+html, body {
+    min-height: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    /* -webkit-text-size-adjust: 100%; */
+    -webkit-font-smoothing: antialiased;
 }

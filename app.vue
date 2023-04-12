@@ -2,11 +2,16 @@
   <div>
     <!-- <NuxtWelcome />
      -->
-    <div>Hello!</div>
-    <div ref="box" class="box"></div>
-    <div class="center">
+    <!-- <div>Hello!</div> -->
+    <!-- <div ref="box" class="box"></div> -->
+    <!-- <div class="center">
       <TheBubble />
-    </div>
+    </div> -->
+    <!-- <TheHero /> -->
+    <!-- <TheFollow /> -->
+    <!-- <the-follow-ball /> -->
+    <!-- <the-home /> -->
+    <the-dream />
   </div>
 </template>
 
@@ -49,9 +54,7 @@ export default {
 }
 
 .center {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
 }
 </style>
